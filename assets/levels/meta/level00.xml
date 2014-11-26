@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<level>00</level>
+<music>cakephone</music>
+<name>The Ropes</name>
+<par>1800</par>
+<backgrounds>
+	<sector id="0">
+		<image>01</image>
+		<starfield>1</starfield>
+	</sector>
+	<sector id="1">
+		<image>02</image>
+		<starfield>1</starfield>
+	</sector>
+	<sector id="2">
+		<image>02</image>
+		<starfield>1</starfield>
+	</sector>
+	<sector id="3">
+		<image>01</image>
+		<starfield>1</starfield>
+	</sector>
+</backgrounds>
+
+<medals>
+	<gold>100</gold>
+	<silver>293</silver>
+	<bronze>500</bronze>
+</medals>
+
+<qualifiers>
+	
+</qualifiers>
+
+</data>

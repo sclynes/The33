@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<level>18</level>
+<music>MantasMobula</music>
+<name>Laser Obsession</name>
+<backgrounds>
+	<sector id="0">
+		<image>01</image>
+		<starfield>1</starfield>
+	</sector>
+	<sector id="1">
+		<image>02</image>
+		<starfield>0</starfield>
+	</sector>
+	<sector id="2">
+		<image>02</image>
+		<starfield>0</starfield>
+	</sector>
+	<sector id="3">
+		<image>01</image>
+		<starfield>0</starfield>
+	</sector>
+</backgrounds>
+
+<achievements>
+	<gold>100</gold>
+	<silver>293</silver>
+	<bronze>500</bronze>
+</achievements>
+
+<qualifiers>
+	
+</qualifiers>
+
+</data>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="200" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="sectorshigh" value="10"/>
+  <property name="sectorswide" value="5"/>
+ </properties>
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/tilesetspaceship.png" width="320" height="240"/>
+ </tileset>
+ <layer name="collision" width="200" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bMWrDABREQRW6ju9/vVTpEgx5RF6JGdjaD9m/Meg8juMc3svsw+Nv1p+fvubqvvPCz7qC77d5ct9//tbvckdP/n6voO/Z1p+fvma9b93689PXrPd9/3+1av356WvW+9xHo69Z73Mfjb5mvc99NPqa9T730ehr1vvcR6OvWe9zH42+Zr3PfTT6mvU+99Hoa9b73Eejr1nvcx+Nvma9z300+pr1PvfR6Gtev+zT79R6v9bM7B5bpa/R1+hr9DX6Gn2NvkZfo6/R1+hr9DX6Gn2NvkZfo6/R1+hr9DX6Gn2NvkZfo6/R1+hr9DX6Gn2NvkZfo6/R1+hr9DX6Gn2NvkZfo6/R1+hr9DV36TOznwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwzhes4fzfAHECAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="200" height="200">
+  <object type="player" x="48" y="288"/>
+  <object type="pelter" x="27" y="1123">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+  <object type="platform_rail" x="32" y="48">
+   <properties>
+    <property name="dir" value="1"/>
+    <property name="pwidth" value="5"/>
+    <property name="speed" value="7"/>
+   </properties>
+   <polyline points="0,0 1200,0"/>
+  </object>
+ </objectgroup>
+</map>

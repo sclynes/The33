@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="72" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="sectorshigh" value="2"/>
+  <property name="sectorswide" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/tilesetspaceship.png" width="320" height="240"/>
+ </tileset>
+ <layer name="collision" width="128" height="72">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2dWXLUMBCG9RByGKCSorLxlDhUcQEC3ACK01DsB2BnDpBAgByAnZwgrCdgf6K7ZrpG0chyW5K3dP9VX2nGli1Hv2SrHXm8bIxZAVaBNeA0sAQsM5eX5fVt4+atU04T5VOe2LLd5YvAPLBQkb9qGw60T0pDeekY3OM5AZwC5ky85pSkuupS6ybdf8nqg4cpUv9lS/2XLfVfttr2PzTuCY2LuNv5lqvKxfUfY5Mm4rSyeGnJWefGafa6sv21GTva5abWU2g5lnHcjOO2kyVe0XoOG4bnfxOxkCpO2GfRt8L4z3m0note/4cl9V+2pPnf52vLJnCm5TLV//4I67rooMw++597rKj+z5aZ03+MF7j/c6oLNw4ZKuRDm2qi/zd9rC7XgOvADeAmcAu4PVlexX2HqvxuOWVl34mkyFVZTA3R/7vAPTP1C9MHwEPgEfAYeGJmvfXx1CGUN9QOXM9HkRS5KoupIfq/DeyYqV+YPgN2gefAC+ClmfXWxxsHX546fZx83IukyFVZTA3R/1fAazP1C9O3wDvgPfAB+GhmvfVx4EDLuZ67/Zd83I+kyFFRNTRU/+02UOYlhx8TYvq4r5+Tj98jKRLqJ0ZD9J/O/5gemFkvuaT2cV8/Jx//WVSNIalMzFtkqSm+hug/9X1MXU9/Ar+A38Af4K8Z1yuOE2jMiNtVeT8yvPihboxR1QaKXJXF1ND8t8f++Nm+DuAyGhfuTta5+ZEY31Jw4wv1P/5Y7bH/tvMdwbZAntveU3y4Y+J8q+q39rkjFGNUnXeKXJXF1ND8t/u7bxxo93W7bVB8aLeVOrEhtQnffYaRlSIx9300/ucfqwu1Abu/b5vDbQN9p/iQExe68QS1Cd99hj0rRWLu+2j8zz/WMuz+7p4n6LMbM4Swx5XUJnz3GfatFIm576PxP/9Yy7B99i2j6wU3PrRjiYMJn4DPwBfgK/DNjOM9SpGY+z4a//OPtQuq4ktKkZj7PrRtkauymJLi/1bCtshl4JIZj9+vAFdNuD2ECJVT5KospnL7j/lXLBY9ZS44eULMW5+3EphP3L4NjoL/NP+HM88mdS5PlVL218U8oQvAxRbLQw3p/N8X9XkOWV216T+e91c9+K4RsaLnZlL279tHE8faB2n/j5P93FToOtbEdS2nmhj/dT2Psq25mkTXx5Lr73CfPdg09bwn/7seRw8VO1Zts0z67I49z9XcV2HC5/9jgXWqbub/57xe0/Pfqjip/7Kl/suW+i9b6r9sqf+ypf7LlvovW+q/bKn/sqX+y5b6L1vqv2yp/7Kl/suW+i9b6r9sqf+ypf7LVhf+n824L/U/TTTXuuxdHE0o55x09T9N5P/5FstU//ujLp7/U//7oy6eEVL/+yP1XzVkqf+ypf7LlvovW+q/bKn/sqX+y5b6L1vrE+r8Ho5ydChM+H3xaxNWnTT0zkd6Z737/nr3u/u7kRvm8G9QNrXfrv+uvtX3f00IXsIAkAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="128" height="72">
+  <object type="player" x="220" y="452"/>
+  <object type="laser" x="24" y="550">
+   <properties>
+    <property name="freq" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="1274" y="163">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="1200" y="608">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="144">
+   <properties>
+    <property name="coin_index" value="0"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="176">
+   <properties>
+    <property name="coin_index" value="1"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="208">
+   <properties>
+    <property name="coin_index" value="2"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="240">
+   <properties>
+    <property name="coin_index" value="3"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="336">
+   <properties>
+    <property name="coin_index" value="6"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="304">
+   <properties>
+    <property name="coin_index" value="5"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="272">
+   <properties>
+    <property name="coin_index" value="4"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="368">
+   <properties>
+    <property name="coin_index" value="7"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="464">
+   <properties>
+    <property name="coin_index" value="10"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="432">
+   <properties>
+    <property name="coin_index" value="9"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="400">
+   <properties>
+    <property name="coin_index" value="8"/>
+   </properties>
+  </object>
+  <object type="coin" x="1808" y="496">
+   <properties>
+    <property name="coin_index" value="11"/>
+   </properties>
+  </object>
+  <object type="checkpoint" x="1664" y="96"/>
+ </objectgroup>
+</map>

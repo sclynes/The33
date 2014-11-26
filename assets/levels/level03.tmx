@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="104" height="90" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="sectorshigh" value="3"/>
+  <property name="sectorswide" value="2"/>
+ </properties>
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/tilesetspaceship.png" width="320" height="240"/>
+ </tileset>
+ <layer name="collision" width="104" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aQQqDQBBFwbmQ979ebiCChH60VTD7vPyNDl7nnMtJH5rs02afNvu02afNPm32abNPm33a7NNmnzb7tNmn7eld6fT97Vfve7f1bGOfNvu02afNPm32abNP2/R7ivefe9t6trFPm33a7NNmnzb7tE0/B08+e0//DmfPPlvoadPTpqdNT5ueNj1tetr0tOlp09Omp01Pm542PW162vS06WnT06anTU+bnjY9bXra9LTpadPTpqdta8+2s8X0/2ife3ra9LTpadPTpqdNT5ueNj1tetr0tOlp09Omp01Pm542PW162vS06WnT06anTU+bnjY9bXra9LTpadPT9vY7dOf/5wdMFAqTQJIAAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="104" height="90">
+  <object type="player" x="176" y="208"/>
+  <object type="laser" x="16" y="336">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

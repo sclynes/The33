@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="72" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="sectorshigh" value="1"/>
+  <property name="sectorswide" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/tilesetspaceship.png" width="320" height="240"/>
+ </tileset>
+ <layer name="collision" width="128" height="72" opacity="0.9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3d3UoCQQBH8bmofZgiQujrKqpXkHr/R2m8GFimTWdH152dc37wxzAFt4MionYXQniKe457iXuNeytYzXWW2IM7a7vw103FppReLhT8vtTU8SzpUh3WcKx/Or1Ul2u5dv8tO9V/i+xfLvW/zc63P8Oh/3vcY3Z+C/1rb4P9y7X8+G//5dmfzf5s9mezP5v9+3XstcZh9LP9+5B3zXsPwf49y7vmzb3/a8z+bPZnsz+b/dnsz2Z/Nvuz2b8vw8zL278fc9sf2F/2376a+35ifzb7s9mfzf5s9mezP9t//Vtg/+XZn83+bOnzv/cb3NfE8XzGfZz7RwFJ/fcb3M/E8XwH+8/R8uN/rd6OZ0n2Z7M/m/3Z7M+Wnv/3xP7l7M9mfzb7s9mfzf5s9mfrsb/Kjb8niLbQwG1oZWKyP5v92ezPZn82+7PZn83+bPZnsz+b/dnsz2Z/Nvuz2Z/N/mz2Z7M/m/3Z7M+29vsO3Tob/x/QXy3tT+gAkAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="128" height="72">
+  <object type="player" x="1090" y="774"/>
+  <object type="blinker" x="1119" y="396" width="20" height="23">
+   <properties>
+    <property name="off" value="60"/>
+    <property name="offset" value="0"/>
+    <property name="on" value="120"/>
+   </properties>
+  </object>
+  <object type="pelter" x="21" y="1124" width="17" height="16">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="2020" y="1120" width="17" height="16">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="21" y="819" width="17" height="16">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="2020" y="820" width="17" height="16">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

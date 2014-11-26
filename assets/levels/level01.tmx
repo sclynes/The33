@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="52" height="90" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="sectorshigh" value="3"/>
+  <property name="sectorswide" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/tilesetspaceship.png" width="320" height="240"/>
+ </tileset>
+ <layer name="collision" width="52" height="90" opacity="0.58">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2bb05aQRTF74e2i7FtGpP2a2uarqBtugREiBtAgR0o1R0A4g4A7Q6Etlvq3HhO5vAE5Z9hoHOTk5n33jxyf3Pv3BkJ7pnZ+x3Rm6D9oJe2G7YP7YplnrQt86RtmSdtyzxpW+ZJ2zJP2pZ50rbMk7ZlnrQt86RtmSdtc5aPQR+2VO+m8KwrPi9maJnPWXbMLubbUzzrmvfHPvOpsfPaLJ69oNdbqIMZPF+Dvm2hZvGsmk+bsln5lnnSsMyTtmWetC3zpG2ZJ23LPGlb5knbMk/alnnStv/x+6ptMvK83bQjazJ+f73o91z+u9NXttnv6T4/wrPp782W0Y8ZPLu4fnbFMk/alnnStsyTtmWetC3zpG2ZJ21b9u+fVcW/n56L5zyohfYU7WFQDfdbuM/+IeT9E7RneO/TnCLXc/B04NcZfCtL/wR+0m8+r4Kxiueck5K0JdwvYW54XYYOnolnBH8ZA/adiXFgXM4sxqIm/tXk/ljm4Ivc5zv8fG/XmXvkqQf1g+6ChkEDtM7ZDroK6sl1F+MHeMf7Hfg6AM8Q45jHjI1fM+c4d+vKPfI0gipBTfg8hujrTdBt0C/43cVz5SIbeUcYOxLGMe7pOvLYrSv3yHMENcBUwfUQ/v0O+hP0F76RQZk64DlH6xw1PCd/WeaIPMxHj9+quafxORIOclFDm8zDLvzq2GRcNK536J+Ai+9xDgbCVBatknu6fhgj5h0Zq3Lvwu5z76fd5x7joPFivnH9DTGuJnysKcV1VLPVck/jUy9wMe80/xrw8RZM7ivX00iu+xbjObIYzzbujy2uK44tF7RM7hV5KgUmXVccU4XPbcjZemjpI3Ota7EmkIm52wIL6w9jyBgts+eS5xh+ss4xPnWLa+lIeOrwk7nE+tYTlr7Fut23WDPaNhnDtsXY8h3WvEVzr8hTh+9koxijqoyrwg/mEWPjcbiEru1+nV0LO3PzVBi4v43lOc9avofPm3vKw/nX2qb+k6lSuM89ljFi/ozgo3PdoF/ca0/t4f5WtlhPnGWR857yHFuMgcaI9YD1Qq81blwLXCOsdazpQ7Bd4FnLYs3Q/Y3nIa5PrekHC/JwzplnjIX6rfVcayDzT+s24+RMPv8eh2tpWSPu5D0f27O45no2f90r8hyLrxWbzC3GrSIsGjP2GxbXPuN0C3+9xl/Cxwvxl1w8a+h+7O95zBgjz8Fp/7tQ5KnaZN7pmUH9bkpfuYq5qvsMz0Jt+D8Ej7dcOyOLdX2Mca4ri/XbdWCzf1c/rb41hIt1W2sD/df6QXEMY9vE/Gru9UVcP4wZ9y7WArK4vHaUCjxFJuVpFuJz/IiUU6X7F89K5OaeydrQFrFm6Jm8aw/PDHrGmyZn3dbf9k/T96B/02YD/yBJAAA=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="52" height="90">
+  <object type="player" x="48" y="1088"/>
+  <object type="pelter" x="785" y="1395">
+   <properties>
+    <property name="dir" value="3"/>
+    <property name="pwidth" value="3"/>
+   </properties>
+  </object>
+  <object type="platform_rail" x="128" y="704">
+   <properties>
+    <property name="dir" value="-1"/>
+    <property name="pwidth" value="4"/>
+    <property name="speed" value="2"/>
+    <property name="startnode" value="1"/>
+   </properties>
+   <polyline points="0,0 480,0"/>
+  </object>
+  <object type="platform_rail" x="736" y="592">
+   <properties>
+    <property name="dir" value="1"/>
+    <property name="pwidth" value="4"/>
+    <property name="speed" value="2"/>
+   </properties>
+   <polyline points="0,-64 0,160"/>
+  </object>
+  <object type="coin" x="160" y="832">
+   <properties>
+    <property name="coin_index" value="0"/>
+   </properties>
+  </object>
+  <object type="coin" x="128" y="832">
+   <properties>
+    <property name="coin_index" value="1"/>
+   </properties>
+  </object>
+  <object type="coin" x="96" y="832">
+   <properties>
+    <property name="coin_index" value="2"/>
+   </properties>
+  </object>
+  <object type="coin" x="64" y="832">
+   <properties>
+    <property name="coin_index" value="3"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="640">
+   <properties>
+    <property name="coin_index" value="8"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="736">
+   <properties>
+    <property name="coin_index" value="5"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="704">
+   <properties>
+    <property name="coin_index" value="6"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="672">
+   <properties>
+    <property name="coin_index" value="7"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="768">
+   <properties>
+    <property name="coin_index" value="4"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="608">
+   <properties>
+    <property name="coin_index" value="9"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="576">
+   <properties>
+    <property name="coin_index" value="10"/>
+   </properties>
+  </object>
+  <object type="coin" x="32" y="544">
+   <properties>
+    <property name="coin_index" value="11"/>
+   </properties>
+  </object>
+  <object type="pelter" x="800" y="32">
+   <properties>
+    <property name="dir" value="2"/>
+    <property name="pwidth" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

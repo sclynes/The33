@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="96" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="solids_32" tilewidth="16" tileheight="16">
+  <image source="../graphics/solids_32.png" width="256" height="16"/>
+ </tileset>
+ <layer name="collision" width="128" height="96">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3a0U7CQBgF4SLv/87GxN4QkQKls9OdL9krQ3tyfmW3wmVZlktr6nVdXnedeK39We0x/5k1/7k1/7nZ+7Pnp63dWfsj5n/vXrdnq3s/++91W+6zJ/vfz9b89PPJ6Ovs83/0HBSfM/z+5nXNP4b5j7zP/HUWMGn+77HOffXJ+W/5//mz1xmNefY/6Oemsywre36avT9r/lH2Amt/K3v+vdH7yFF7y1n2r70924W9P3t+mr0/e36avT97fpq9P3t+mr0/e36avT97fpq9P3t+mr0/e36avT97fpq9P3t+mr0/e36avb+tnznQn4GMvqyezb/Xd3q2XP/I175qtvlbjfwdMtKj+R/1nvfu9c/6/vxp9TO3vc9BX7+LPo994ix3xnNk82fnf3vdo1H3PQt7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f/b8NHt/9vw0e3/2/DR7f5fW9CtJkiRJkiRJkiRJkiRJkiRJkozvGz8dXj8AwAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="128" height="96">
+  <object type="player" x="180" y="460"/>
+  <object type="laser" x="24" y="550">
+   <properties>
+    <property name="freq" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="28" y="467"/>
+  <object type="pelter" x="1197" y="548"/>
+  <object type="pelter" x="1274" y="163">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="1258" y="262">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="659" y="470">
+   <properties>
+    <property name="dir" value="3"/>
+   </properties>
+  </object>
+  <object type="pelter" x="1251" y="471">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="28" y="852">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="1254" y="1122">
+   <properties>
+    <property name="dir" value="2"/>
+   </properties>
+  </object>
+  <object type="pelter" x="27" y="1123">
+   <properties>
+    <property name="dir" value="0"/>
+   </properties>
+  </object>
+  <object type="pelter" x="621" y="1089">
+   <properties>
+    <property name="dir" value="3"/>
+   </properties>
+  </object>
+  <object type="pelter" x="619" y="597">
+   <properties>
+    <property name="dir" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

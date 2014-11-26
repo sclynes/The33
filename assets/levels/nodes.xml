@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<nodes width="11" height="13">
+	<node id="0">
+		<children>
+			<child>1</child>
+			<child>2</child>
+			<child>3</child>
+		</children>
+		
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>0</x>
+			<y>6</y>
+		</grid>
+		
+		<edges>
+			<e>0</e>
+			<e>1</e>
+			<e>4</e>
+			<e>5</e>
+			<e>6</e>
+			<e>7</e>
+		</edges>
+		
+	</node>
+	<node id="1">
+		<children>
+			<child>4</child>
+			<child>5</child>
+		</children>
+		<parents>
+			
+		</parents>
+		
+		<grid>
+			<x>1</x>
+			<y>3</y>
+		</grid>
+		
+		<edges>
+			<e>2</e>
+			<e>6</e>
+			<e>8</e>
+			<e>10</e>
+			<e>14</e>
+			<e>16</e>
+		</edges>
+		
+	</node>
+	<node id="2">
+		<children>
+			<child>5</child>
+			<child>6</child>
+		</children>
+		<parents>
+			
+		</parents>
+		
+		<grid>
+			<x>1</x>
+			<y>6</y>
+		</grid>
+		
+		<edges>
+			<e>3</e>
+			<e>7</e>
+			<e>9</e>
+			<e>11</e>
+			<e>15</e>
+			<e>17</e>
+		</edges>
+		
+	</node>
+	<node id="3">
+		<children>
+			<child>6</child>
+			<child>7</child>
+		</children>
+		<parents>
+		
+		</parents>
+		<grid>
+			<x>1</x>
+			<y>9</y>
+		</grid>
+		
+		<edges>
+			<e>4</e>
+			<e>5</e>
+			<e>8</e>
+			<e>9</e>
+			<e>12</e>
+			<e>13</e>
+		</edges>
+		
+	</node>
+	<node id="4">
+		<children>
+			<child>8</child>
+			<child>9</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>2</x>
+			<y>2</y>
+		</grid>
+		
+		<edges>
+			<e>12</e>
+			<e>16</e>
+			<e>18</e>
+			<e>26</e>
+			<e>33</e>
+		</edges>
+		
+		
+	</node>
+	<node id="5">
+		<children>
+			<child>10</child>
+			<child>11</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>2</x>
+			<y>5</y>
+		</grid>
+		
+		<edges>
+			<e>13</e>
+			<e>17</e>
+			<e>19</e>
+			<e>27</e>
+			<e>34</e>
+		</edges>
+		
+		
+	</node>
+	<node id="6">
+		<children>
+			<child>12</child>
+			<child>13</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>2</x>
+			<y>8</y>
+		</grid>
+		
+		<edges>
+			<e>14</e>
+			<e>18</e>
+			<e>22</e>
+			<e>24</e>
+		</edges>
+		
+		
+	</node>
+	<node id="7">
+		<children>
+			<child>14</child>
+			<child>15</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>2</x>
+			<y>11</y>
+		</grid>
+		
+		<edges>
+			<e>15</e>
+			<e>19</e>
+			<e>23</e>
+			<e>25</e>
+		</edges>
+		
+	</node>
+	<node id="8">
+		<children>
+			<child>16</child>
+			<child>17</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>1</y>
+		</grid>
+		
+		<edges>
+			<e>20</e>
+			<e>22</e>
+			<e>29</e>
+			<e>31</e>
+		</edges>
+		
+	</node>
+	<node id="9">
+		<children>
+			<child>17</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>3</y>
+		</grid>
+		
+		<edges>
+			<e>21</e>
+			<e>23</e>
+			<e>30</e>
+			<e>32</e>
+		</edges>
+		
+	</node>
+	<node id="10">
+		<children>
+			<child>18</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>4</y>
+		</grid>
+		
+		<edges>
+			<e>24</e>
+			<e>33</e>
+			<e>35</e>
+			<e>41</e>
+			<e>44</e>
+		</edges>
+		
+	</node>
+	<node id="11">
+		<children>
+			<child>18</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>6</y>
+		</grid>
+		
+		<edges>
+			<e>25</e>
+			<e>34</e>
+			<e>36</e>
+			<e>42</e>
+			<e>45</e>
+		</edges>
+		
+	</node>
+	<node id="12">
+		<children>
+			<child>19</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>7</y>
+		</grid>
+		
+		<edges>
+			<e>26</e>
+			<e>28</e>
+			<e>35</e>
+			<e>37</e>
+			<e>39</e>
+		</edges>
+		
+	</node>
+	<node id="13">
+		<children>
+			<child>19</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>9</y>
+		</grid>
+		
+		<edges>
+			<e>27</e>
+			<e>28</e>
+			<e>36</e>
+			<e>38</e>
+			<e>40</e>
+		</edges>
+		
+	</node>
+	<node id="14">
+		<children>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>10</y>
+		</grid>
+		
+		<edges>
+			<e>31</e>
+			<e>41</e>
+			<e>46</e>
+			<e>48</e>
+		</edges>
+		
+	</node>
+	<node id="15">
+		<children>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>3</x>
+			<y>12</y>
+		</grid>
+		
+		<edges>
+			<e>32</e>
+			<e>42</e>
+			<e>47</e>
+			<e>49</e>
+		</edges>
+		
+	</node>
+	<node id="16">
+		<children>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>4</x>
+			<y>0</y>
+		</grid>
+		
+		<edges>
+			<e>37</e>
+			<e>38</e>
+			<e>43</e>
+		</edges>
+		
+	</node>
+	<node id="17">
+		<children>
+			<child>20</child>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>4</x>
+			<y>2</y>
+		</grid>
+		
+		<edges>
+			<e>39</e>
+			<e>40</e>
+			<e>43</e>
+			<e>44</e>
+			<e>45</e>
+			<e>50</e>
+			<e>51</e>
+		</edges>
+		
+	</node>
+	<node id="18">
+		<children>
+			<child>20</child>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>4</x>
+			<y>5</y>
+		</grid>
+		
+		<edges>
+			<e>48</e>
+			<e>50</e>
+			<e>52</e>
+			<e>54</e>
+		</edges>
+		
+	</node>
+	<node id="19">
+		<children>
+			<child>20</child>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>4</x>
+			<y>8</y>
+		</grid>
+		
+		<edges>
+			<e>49</e>
+			<e>51</e>
+			<e>53</e>
+			<e>55</e>
+		</edges>
+		
+	</node>
+	<node id="20">
+		<children>
+			<child>20</child>
+		</children>
+		<parents>
+			
+		</parents>
+		<grid>
+			<x>4</x>
+			<y>11</y>
+		</grid>
+		
+		<edges>
+			<e>54</e>
+			<e>55</e>
+			<e>56</e>
+			<e>57</e>
+		</edges>
+		
+	</node>
+</nodes>
+</data>
