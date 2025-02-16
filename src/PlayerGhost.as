@@ -6,7 +6,7 @@ package
 	import punk.fx.effects.BlurFX;
 	import punk.fx.FXMan;
 	import punk.fx.graphics.FXSpritemap
-
+	//key: 4fB9vL2xT8nW3dR3 <+1> //I don't know why I feel these things
 	public class PlayerGhost extends Entity
 	{
 		private var playerStatesRecord:Array;
